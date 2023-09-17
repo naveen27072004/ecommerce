@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/home.css">
+</head>
+<body>
+    <!-- ....HOMEPAGE....... -->
+    <div class="sti">
+        <div class="section s1" id="home">
+        <div class="row row1">
+            <div class="col">
+                
+        <div class="LOGO">
+            <h3>Meat And Eat</h3>
+        </div>
+        </div>
+        <div class="col">
+            <div class="nav">
+                <ul>
+                    <li><a href="#se">Home</a></li>
+                    <li><a href="#s2">Menu</a></li>
+                    <li><a href="#about">About
+                    </a></li>
+                    <li><a href="#con">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        
+        <!-- ROW....2 -->
+        <div class="row row2">
+            <div class="col">
+                <h1>Hey BUY The <span class="log">Meat And <br> TAST IT >>></span></h1>
+            </div>
+            <div class="col">
+                <div class="img">
+                    <img class="fimg" src="/images/pexels-lukas-616354.jpg" width="400px" height="300px" alt="">
+                </div>
+            </div>
+        </div>
+        </div>
+    <!-- ..........  MENU PAGE............ -->
+    <div class="row">
+    <div class="section" id="s2">
+        <div class="col">
+<h1 class="m1">Menu Page</h1> 
+</div>
+</div>
+<div class="row">
+    <div class="col-4">
+      <a href="#mm">  <img class="img" src="/images/MUTTON-photo-65175.jpeg" width="250px" height="250px" alt=""></a>
+    </div>
+    <div class="col-4">
+       <a href="#fi"><img class="img" src="/images/fish-photo-7451969.jpeg" width="250px" height="250px" alt=""></a>
+    </div>
+    <div  class="col-4">
+       <a href="#ch"><img class="img" src="images/pexels-lukas-616354.jpg" width="250px" height="250px" alt=""></a>
+    </div>
+</div>
+</div> 
+<!-- ........MUTTON MENU........... -->
+<div class="section mutton" id="mm">
+    <div class="row mutton"><h1 class="mm">Mutton Menu</h1></div>
+<div class="row">
+<div class="col mm1">
+   <img class="mm" src="/images/chest.jpg" width="150px" height="150px" alt="">
+   <h5>Mutton chest-<br><span id="kg" class="kg">1kg</span>-<span class="kg" id="pc">22pices</span></h5>
+  <div class="flx"> <button class="but" onclick="add()">Add+</button>   <h6 id="prc"></h6> <button class="but" onclick="ord()">click to order</button></div>
+   
+
+   
+  <script>
+      var kg=1;
+      var pes=22;
+      var price=900;
+      function add(){
+var kg1=kg++;
+var pes11=pes*kg1;
+var pric=kg1*price;
+var getprice=document.getElementById("prc").innerHTML="$"+pric;
+var getkg=document.getElementById("kg").innerHTML=kg1+"kg";
+var getpcs=document.getElementById("pc").innerHTML=pes11+"pices"
+      }
+  </script>
+   
+</div>
+<div class="col mm2">
+    
+   <img class="mm" src="images/download (1).jpg" width="150px" height="150px" alt="">
+   <h5>Mutton-shoulder-<br><span id="kgg" class="kgg">1kg</span>-<span class="kgg" id="pcc">18pices</span></h5>
+  <div class="flx"> <button class="but" onclick="adds()">Add+</button>   <h6 id="prcc"></h6> <button class="but" onclick="ords()">click to order</button></div>
+
+  <script>
+     var kg=1;
+      var pes=18;
+      var price=900;
+      function adds(){
+var kg1=kg++;
+var pes11=pes*kg1;
+var pric=kg1*price;
+var getprice=document.getElementById("prcc").innerHTML="$"+pric;
+var getkg=document.getElementById("kgg").innerHTML=kg1+"kg";
+var getpcs=document.getElementById("pcc").innerHTML=pes11+"pices"
+      }
+  </script>
+</div>
+<div class="col mm3">
+    <img class="mm" src="images/kima.jpg" width="150px" height="150px" alt="">
+   <h5>Mutton-kima<br><span id="kggk" class="kgg">1kg</span>-<span class="kgg" id="pcck"></span></h5>
+  <div class="flx"> <button class="but" onclick="addsk()">Add+</button>   <h6 id="prcck"></h6> <button class="but" onclick="ordsk()">click to order</button></div>
+
+  <script>
+     var kg=1;
+     
+      var price=900;
+      function addsk(){
+var kg1=kg++;
+var pes11=pes*kg1;
+var pric=kg1*price;
+var getprice=document.getElementById("prcck").innerHTML="$"+pric;
+var getkg=document.getElementById("kggk").innerHTML=kg1+"kg";
+// var getpcs=document.getElementById("pcck").innerHTML=pes11+"pices"
+      }
+  </script>
+  </div>
+</div>
+  </div>  
+  </div>
+  <!-- ..........FISH MENU......... -->
+ <div class="section fish" id="fi">
+    <div class="row fish">
+        <h1 class="ff">Fish Items</h1></div>
+    <div class="row">
+        <div class="col fi1">
+            <img class="mm" src="/images/fish j.jpg" width="150px" height="150px" alt="">
+            <h5>fish(jelabi)-<br><span id="kggkf" class="kg">1kg</span>-<span class="kg" id="pcckf">15slice</span></h5>
+           <div class="flx"> <button class="but" onclick="fi()">Add+</button>   <h6 id="prcckf"></h6> <button class="but" onclick="ord()">click to order</button></div>
+           <script>
+            
+     var kgg=1;
+      var pes=18;
+      var price=550;
+      function fi(){
+var kg1=kgg++;
+var pes11=pes*kg1;
+var pric=kg1*price;
+var getprice=document.getElementById("prcckf").innerHTML="$"+pric;
+var getkg=document.getElementById("kggkf").innerHTML=kg1+"kg";
+var getpcs=document.getElementById("pcckf").innerHTML=pes11+"pices"
+      }
+           </script>
+        </div>
+        <div class="col fi1">
+            <img class="mm" src="/images/paarai f.jpg" width="150px" height="150px" alt="">
+            <h5>fish(paarai)-<br><span id="f2" class="kg">1kg</span>-<span class="kg" id="f2s">15slice</span></h5>
+           <div class="flx"> <button class="but" onclick="fi2()">Add+</button>   <h6 id="f2p"></h6> <button class="but" onclick="ord()">click to order</button></div>
+           <script>
+            var kgg=1;
+      var pes=18;
+      var price=550;
+      function fi2(){
+var kg1=kgg++;
+var pes11=pes*kg1;
+var pric=kg1*price;
+var getprice=document.getElementById("f2p").innerHTML="$"+pric;
+var getkg=document.getElementById("f2").innerHTML=kg1+"kg";
+var getpcs=document.getElementById("f2s").innerHTML=pes11+"pices"
+      }
+           </script>
+    </div>
+    <div class="col fi1">
+        <img class="mm" src="/images/maathi.jpg" width="150px" height="150px" alt="">
+        <h5>fish(mathi)-<br><span id="fm2" class="kg">1kg</span>-<span class="kg" id="fm2s">35 fullPices</span></h5>
+       <div class="flx"> <button class="but" onclick="fm()">Add+</button>   <h6 id="fm2p"></h6> <button class="but" onclick="ord()">click to order</button>
+    <script>
+           var kgg=1;
+      var pes=35;
+      var price=650;
+      function fm(){
+var kg1=kgg++;
+var pes11=pes*kg1;
+var pric=kg1*price;
+var getprice=document.getElementById("fm2p").innerHTML="$"+pric;
+var getkg=document.getElementById("fm2").innerHTML=kg1+"kg";
+var getpcs=document.getElementById("fm2s").innerHTML=pes11+"full fish"
+      }
+    </script>
+    </div>
+
+</div>
+</div>
+</div>
+<!-- ............chicken menu............. -->
+<div class="section" id="ch">
+<div class="row">
+    <div class="col"><center><h1 class="ch">chiken menu</h1></center></div>
+</div>
+<div class="row">
+    <div class="col chm">
+        <img class="chh" src="/images/ch leg.jpg" width="150px" height="150px" alt="">
+        <h5>chiken(leg)-<br><span id="ch1kg" class="kg">1kg</span>-<span class="kg" id="ch1pi">5legpiece</span></h5>
+       <div class="flx"> <button class="but" onclick="fch()">Add+</button>   <h6 id="ch1p"></h6> <button class="but" onclick="ord()">click to order</button></div>
+        <script>
+      var kgg=1;
+      var pes=5;
+      var price=270;
+      function fch(){
+var kg1=kgg++;
+var pes11=pes*kg1;
+var pric=kg1*price;
+var getprice=document.getElementById("ch1p").innerHTML="$"+pric;
+var getkg=document.getElementById("ch1kg").innerHTML=kg1+"kg";
+var getpcs=document.getElementById("ch1pi").innerHTML=pes11+"leg piece"
+      }
+        </script>
+    </div>
+    <div class="col-4">
+        <img class="chh" src="/images/country chiken.jpg" width="150px" height="150px" alt="">
+        <h5>country chiken-<br><span id="ch2kg" class="kg">1kg</span>-<span class="kg" id="ch2pi">23piece</span></h5>
+       <div class="flx"> <button class="but" onclick="fch1()">Add+</button>   <h6 id="ch2p"></h6> <button class="but" onclick="ord()">click to order</button>
+        <script>
+             var kgg=1;
+      var pes=5;
+      var price=270;
+      function fch1(){
+var kg1=kgg++;
+var pes11=pes*kg1;
+var pric=kg1*price;
+var getprice=document.getElementById("ch2p").innerHTML="$"+pric;
+var getkg=document.getElementById("ch2kg").innerHTML=kg1+"kg";
+var getpcs=document.getElementById("ch2pi").innerHTML=pes11+"pices"
+      }
+        </script>
+    </div>  
+</div>
+</div>
+</div>
+<!-- ........ABOUT SECTION........ -->
+<div class="section fullabt" id="about">
+    <div class="row">
+        <div class="col">
+     <center><h3 class="about">ABOUT SECTION</h3></center>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <h5 class="abt">About our delevery</h5><br>
+            <p class="p1">our delevery process is very fastely and then is a ffresh meat Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos fugit, illum quasi quam nam explicabo dolorem iusto vel recusandae eaque magnam officia laudantium labore cum dolor fugiat facilis, ab repellat.</p>
+        </div>
+        <div class="col-4">
+            <img class="log" src="/images/log2.png" width="250px" height="250px" alt="">
+        </div>
+        <div class="col-4">
+            <h5 class="abt">About our delevery</h5><br>
+            <p class="p1">our delevery process is very fastelyand then is a ffresh meat Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos fugit, illum quasi quam nam explicabo dolorem iusto vel recusandae eaque magnam officia laudantium labore cum dolor fugiat facilis, ab repellat.</p>
+        </div>
+    </div>
+</div>
+<!-- ........contact us......... -->
+<div class="section" id="con">
+    <div class="row">
+        <div class="col">
+            <center><h1>contact us</h1></center></div>
+    </div>
+    <div class="row">
+        <div class="col-4 conm">
+            <h4>companey information</h4><br>
+            <h6>contact us</h6><br>
+            <h6>terms& condition</h6><br>
+            <h6>privecy police</h6>
+        </div>
+        <div class="col-4">
+            <h4>product qulatie</h4><br>
+            <h6>fresh meat</h6><br>
+            <h6>order easyly</h6><br>
+            <h6>packing neataly</h6>
+        </div>
+        <div class="col">
+            <h4>call& order</h4><br>
+            <div class="cal">
+        <img src="/images/call.png" class="call" width="30px" height="30px" alt="">    <h6>call_98765432</h6></div>
+        </div>
+       
+    </div>
+</div>
+</body>
+</html>

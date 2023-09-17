@@ -1,0 +1,189 @@
+*{ation: none;
+    padding: 0%;
+    margin: 0%;
+}
+h1 span.tit{
+    color: red;
+}
+span.log{
+    color: red;
+}
+.section .s1
+
+{
+    position: fixed;
+    margin-top:0px;
+}
+body{
+    
+    background-color: bisque;
+}
+ul li{
+    text-decoration: none;
+    display: inline;
+}
+h3{
+    color: red;
+}
+ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    padding-top: 25px;
+    color: black;
+}
+div.sti{
+    position: sticky;
+    top: 0%;
+    background-color: whitesmoke;
+}
+ul li a:hover{
+    color: red;
+}
+.fimg{
+    border-radius: 50%;
+    
+    margin-bottom: 50px;
+}
+h1{
+    margin-top: 70px;
+}
+.row1{
+    
+    box-shadow: 50px;
+}
+
+.m1{
+    
+    width: fit-content;
+    text-align: center;
+    color: black;
+    border-radius: 25px;
+    margin-left: 40%;
+}
+div .row2{
+     background-color: rgb(250, 243, 232); 
+}
+
+.img{
+    border-radius: 25px;
+    margin-left: 5px;
+    box-shadow: 20px black;
+}
+.img:hover{
+    border-radius: 25px;
+    width: 290px;
+    height: 290px;
+    transform: rotate3d(20px);
+}
+h1.mm{padding-top: 45px;}
+.mutton{
+    background-color: rgb(250, 243, 232);
+}
+.mm{
+    
+    width: fit-content;
+    margin-left: 40%;
+    color: black;
+    border-radius: 25px;
+    
+}
+img.mm{
+    border-radius: 25%;
+    margin-left: 25px;
+}
+div.mm1{
+    margin-left: 25px;
+}
+.btn{
+    border: solid black 1px;
+    border-radius: 25%;
+}
+input{
+    border-radius: 25%;
+}
+div.flx{
+    display: inline-flex;
+}
+div.flx  button{border-radius: 25%;}
+span.kg{
+    color:red;
+}
+button.but{
+    background-color: rgb(250, 243, 232);
+    margin-right: 20px;
+}
+button.but:hover{
+    background-color: bisque;
+}
+div.row.mutton{
+    margin-top: 25px;
+}
+h1.ff{
+
+    width: fit-content;
+    color: black;
+    margin-left: 40%;
+    border-radius: 25px;
+}
+h1.fi{
+    padding-top: 35px;
+    margin-top: 39px;
+}
+
+/* ........chicken.... */
+h1.ch{
+    
+    width: fit-content;
+    color: black;
+    border-radius: 25%;
+}
+div.chm{
+    margin-left: 25px;
+}
+img.chh{
+    border-radius: 25%;
+}
+/* ...........ABIUT SECTION............ */
+.fullabt{
+    background-color: rgb(250, 243, 232);
+}
+ h3.about{
+    
+    width: fit-content;
+    color: black;
+    border-radius: 25%; 
+} 
+h5.abt{
+    color: red;
+    margin-left: 25px;
+}
+p.p1{
+    margin-left: 25px;
+}
+img.log{
+    border-radius: 25%;
+}
+/* ......contact us....... */
+div.conm{
+    margin-left: 20px;
+}
+img.call{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+div.cal{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
